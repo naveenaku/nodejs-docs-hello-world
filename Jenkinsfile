@@ -10,7 +10,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         // public repo: HTTPS is simplest
-        git branch: 'master', url: 'https://github.com/naveenaku/nodejs-docs-hello-world.git'
+        git branch: 'main', url: 'https://github.com/naveenaku/nodejs-docs-hello-world.git'
       }
     }
 
